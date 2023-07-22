@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "name": "Debug SquarePrintPattern",
+            "program": "${workspaceFolder:SquarePrintPattern}/.build/debug/SquarePrintPattern",
+            "args": [],
+            "cwd": "${workspaceFolder:SquarePrintPattern}",
+            "preLaunchTask": "swift: Build Debug SquarePrintPattern"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "name": "Release SquarePrintPattern",
+            "program": "${workspaceFolder:SquarePrintPattern}/.build/release/SquarePrintPattern",
+            "args": [],
+            "cwd": "${workspaceFolder:SquarePrintPattern}",
+            "preLaunchTask": "swift: Build Release SquarePrintPattern"
+        }
+    ]
+}
